@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Sample</title>
+</head>
+<body>
+    <button onclick="show()">Click me </button>
+    <script>
+    function show()
+{
+    // To study usage of var and let
+    var x=20
+    console.log("Ouput ="+x)
+    var x=30
+    console.log("Output after reassigning var x = "+x)
+    let y=40
+    console.log("Case: let y=40 - output = "+y)
+    // To study use of if-else case
+    if(y>0)
+    {
+        console.log("Number " +y+ " is positive")
+    }
+    else{
+        console.log("Number " +y+ " is negative")
+    }
+    // to study use of for loop
+    for(let a=0;a<11;a++)
+    {
+        console.log(a)
+    }
+    // To study use of array
+    let z=["apple","banana",12];
+    console.log(z)
+    // To study use of object and key values in array
+    let q={
+        Name: "Ansaf",
+        age: 10,
+        place: "Kannur"
+    }
+    console.log(q)
+    let abcd=[
+        { Name: "Asif",
+        age: 15,
+        place: "Dubai",
+        },
+        {
+        Name: "Vasif",
+        age: 20,
+        place: "Wayanad",
+        }
+    ]
+    console.log(abcd)
+    console.log(abcd[1])
+}
+    </script>
+</body>
+</html>
