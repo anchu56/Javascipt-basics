@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS actions</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button onclick="display()">Click me </button>
+    <h1 id="demo"></h1> 
+   
+    <script>
+        function display()
+        {
+            var x = document.getElementById("inp").value
+            document.getElementById("demo").innerHTML=x
+           
+
+            if(x=="ansaf")
+            {
+                alert("Are you sure to enter ansaf")
+            }
+
+        }
+
+        
+    </script>
+</body>
+
+</html>
